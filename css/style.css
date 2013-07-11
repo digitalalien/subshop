@@ -1,0 +1,45 @@
+/* 
+    Document   : style
+    Created on : Jul 11, 2013, 10:29:01 AM
+    Author     : LSWS Andrew
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color: #333;
+}
+.container{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1020px;
+}
+header, section, footer, aside{
+    display: block;
+}
+
+header{
+    padding: 2px 20px;
+    background-color: #eee;
+}
+
+#main-header{
+    background-color: #FF0000;
+    padding: 20px;
+    color: #fff;
+}
+
+section{
+    border: solid 1px #ccc;
+    margin: -1px;
+}
+
+section p{
+    padding: 10px 20px;
+}
+
